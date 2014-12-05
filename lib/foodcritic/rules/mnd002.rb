@@ -1,4 +1,3 @@
-require 'pp'
 rule 'MND002', 'File must end with newline' do
   tags %w(mendeley correctness)
   cookbook do |cookbook_dir|
