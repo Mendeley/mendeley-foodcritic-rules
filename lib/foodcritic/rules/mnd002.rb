@@ -1,6 +1,5 @@
-require 'pp'
 rule 'MND002', 'File must end with newline' do
-  tags %w(correctness)
+  tags %w(mendeley correctness)
   cookbook do |cookbook_dir|
     results = []
     Dir.glob(File.join(cookbook_dir, '**/*')) do |f|
