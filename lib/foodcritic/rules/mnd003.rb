@@ -1,5 +1,5 @@
 rule 'MND003', 'Lines may not end with trailing whitespace' do
-  tags %w(correctness)
+  tags %w(mendeley correctness)
   recipe do |ast, filename|
     results = []
     lines = open(filename).read.split(/\n/)
