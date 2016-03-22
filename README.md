@@ -46,3 +46,7 @@ The last byte of every file in the cookbook must be `0x0a`, ASCII
 newline. This is because certain tools behave oddly if a trailing
 newline is missing, and all good editors should include one by
 default.
+
+## Build status
+
+![Travis CI](https://travis-ci.org/Mendeley/mendeley-foodcritic-rules.svg?branch=master)
